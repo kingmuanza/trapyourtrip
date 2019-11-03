@@ -1,0 +1,33 @@
+.background-image {
+    background-image: url('../../../assets/img/image.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.active {
+    padding-bottom: 5px;
+    border-bottom: 4px solid #eee
+}
+
+.active.mini {
+    padding-bottom: 0px;
+    border-bottom: 4px solid #aaa
+}
+
+svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    width: 400vh;
+    padding-bottom: 50vh;
+    ;
+    vertical-align: middle;
+    overflow: hidden;
+}
